@@ -6,7 +6,7 @@ import { User } from './entities/User';
 import { __prod__ } from './constants';
 
 export default {
-  entities: [Post, User],
+  entities: [User, Post],
   dbName: 'lireddit',
   type: 'postgresql',
   debug: !__prod__,
